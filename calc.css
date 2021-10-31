@@ -1,0 +1,123 @@
+.calcbg{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(images/cgpa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.form-grade{
+    position: absolute;
+    border-radius: 40px;
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 3px 0px #000;
+}
+.h_logo{
+    widows: 15%;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 38%;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 25px;
+    color: rgb(255, 245, 101);
+    font-weight: bold;
+}
+p:hover{
+    text-decoration: none;
+    color: rgb(255, 179, 0);
+}
+input{
+    width: 90%;
+    margin-bottom: 25px;
+}
+input[type="number"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+::placeholder{
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.75);
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-family: monospace;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+}
+
+h1{
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    top: 10px;
+    position: relative;
+    text-align: center;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+    line-height: 25px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media all and (max-width:420px){
+    .form-container{
+        top: 5vh;
+        left: 10%;
+        right: 10%;
+    }
+    .form-grade{
+        top: 5vh;
+        left: 10%;
+        right: 10%;
+    }
+}
+@media all and (max-width:700px) and (min-width:421px){
+    .form-grade{
+        top: 10vh;
+        left: 20%;
+        right: 20%;
+    }
+}
+@media all and (max-width:767px) and (min-width:701px){
+    .form-grade{
+        top: 15vh;
+        left: 30%;
+        right: 30%;
+    }
+}
+@media all and (max-width:1024px) and (min-width:768px){
+    .form-grade{
+        top: 20vh;
+        width: 250px;
+    }
+}
+@media all and (max-width:2570px) and (min-width:1461px){
+    .form-grade{
+        top: 25vh;
+    }
+}
